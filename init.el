@@ -6,6 +6,8 @@
 ;; Navigate between windows using Alt-1, Alt-2, Shift-left, shift-up, shift-right
 (windmove-default-keybindings)
 
+(add-hook 'before-save-hook 'whitespace-cleanup)
+
 ;; Enable copy and pasting from clipboard
  (setq x-select-enable-clipboard t)
 
@@ -41,4 +43,5 @@
 
 (require 'color-theme)
 ;;(require 'underwater-theme)
-(require 'color-theme-subtle-blue)
+(color-theme-initialize)
+(color-theme-robin-hood)

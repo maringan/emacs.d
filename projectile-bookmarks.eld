@@ -1,1 +1,1 @@
-("~/workspace/meta-offer-store/")
+("~/workspace/mos/" "~/.emacs.d/" "~/workspace/meta-offer-store/" "~/workspace/mos_client/")
